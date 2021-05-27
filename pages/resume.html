@@ -5,179 +5,85 @@ permalink: /resume
 ---
 
 <section class="container">
-  <h2>Education</h2>
-  <h4>University of Toronto</h4>
-  <p class="dates">September 2008 – June 2012</p>
-  <!-- <ul>
+  <h2>Work Experience</h2>
+  <h4>
+    Software Engineer at <a href="https://www.cbre.ca/en/people-and-offices/toronto-gws/">CBRE GWS</a>
+  </h4>
+  <p class="dates">Augsut 2019 – Present</p>
+  <ul>
     <li>
-      Pursuing an M.S. in Computer Science with a B.A. in Computer Science and
-      Mathematics.
+        Responsible for developing internal productivity/automation tools to support senior 
+        business analysts and over 200 facility management professionals.
     </li>
     <li>
-      <b>Teaching:</b>
-      <ul>
-        <li>
-          CS 124 (Data Structures and Algorithms), Spring 2020 -
-        </li>
-      </ul>
+        Designed and developed a backend restful API using Django2.2/Django Rest Framework/Python3/Postgres 
+        for construction project cost tracking
+        with JWT based authentication.
     </li>
     <li>
-      <b>Selected coursework (&dagger; graduate-level):</b>
-      <ul>
-        <li>Computational Learning Theory<sup>&dagger;</sup> (CS 228)</li>
-        <li>PL/AI Graduate Seminar<sup>&dagger;</sup> (CS 252r)</li>
-        <li>Systems Security<sup>&dagger;</sup> (CS 263)</li>
-        <li>Graduate Probability I<sup>&dagger;</sup> (Statistics 210)</li>
-        <li>Operating Systems (CS 161)</li>
-        <li>Randomized Algorithms<sup>&dagger;</sup> (CS 223)</li>
-        <li>Compilers (CS 153)</li>
-        <li>Honors Abstract Algebra (Math 55a)</li>
-        <li>Honors Real and Complex Analysis (Math 55b)</li>
-      </ul>
+        Created an ETL pipline (Azure Functions, Blob Storage, Azure Logic App) that extract data from various excel documents and transforming the
+        data and loading into SQL database, this replaced the previous MS flow solution which decreased database compute utilization by 80% (down
+        to 20% from 90%). New piplines can be created by business analysts for new types of excel forms without writing any code.
     </li>
-  </ul> -->
+    <li>
+        Upgraded the weather alert app to a server‑less solution using azure functions, Logic App and Azure Cosmodb from the previous VBA version.
+    </li>
+  </ul>
+
+  <h4>
+    Building Assessment Specialist at
+    <a href="https://www.cbre.ca/en/people-and-offices/toronto-gws/">CBRE GWS</a>
+  </h4>
+  <p class="dates">September 2017 – July 2019</p>
+  <ul>
+    <li>
+        Created an auto tagging process that labels photo base on building audit data (equipment age, conditions etc) as the writer writes the report
+        using VBA, this is used to train image classification model on azure
+    </li>
+  </ul>
+
+  <h4>
+    Building Assessment Analyst at
+    <a href="https://www.cbre.ca/en/people-and-offices/toronto-gws/">CBRE GWS</a>
+  </h4>
+  <p class="dates">March 2015 – August 2017</p>
+  <ul>
+    <li>
+        Built an Excel Add‑in using VBA used by building assessors to modify/update building condition data, 
+        automated the process to generate a CVS
+        file that can be uploaded to proprietary CMS web app to generate building condition report.
+    </li>
+  </ul>
+
+  <h4>
+    Teaching Assistant, C Programming Fundamentals at
+    <a href="https://www.utoronto.ca/">University of Toronto</a>
+  </h4>
+  <p class="dates">January 2011 – July 2012</p>
+  <ul>
+    <li>
+        Conducted weekly labs and helped freshmen engineering students with C coding and 
+        debugging problems focusing on basic data structures/algorithms
+    </li>
+  </ul>
 </section>
 
 <hr />
 
 <section class="container">
-  <!-- <h2>Work Experience</h2>
-  <h4>
-    Software Engineering Intern at <a href="https://scale.com/">Scale AI</a>
-  </h4>
-  <p class="dates">December 2020 – January 2021</p>
-  <ul>
-    <li>
-      Worked on machine learning infrastructure for a fast-growing startup using
-      Terraform, Kubernetes, and AWS.
-    </li>
-    <li>
-      Developed an in-house system to unify the ML training workflow, allowing
-      the team to quickly iterate on models, share results on a tracking server,
-      and launch Kubernetes distributed training jobs, saving “hours” of time on
-      each experiment.
-    </li>
-  </ul>
-
-  <h4>
-    Architecture Intern at
-    <a href="https://www.nvidia.com">Nvidia</a>
-  </h4>
-  <p class="dates">June 2020 – August 2020</p>
-  <ul>
-    <li>
-      Implemented
-      <a href="https://arxiv.org/abs/2005.10821"
-        >state-of-the-art deep learning models</a
-      >
-      for semantic segmentation on street image datasets (Cityscapes, KITTI).
-    </li>
-    <li>
-      Worked with the Applied Deep Learning Research (ADLR) group to optimize
-      and rewrite their code, implementing new research model architectures from
-      scratch. Produced efficient PyTorch code that can be evaluated in real
-      time on edge devices with TensorRT. Released an open-source library.
-    </li>
-  </ul>
-
-  <h4>
-    Research Assistant at
-    <a href="https://pl.seas.harvard.edu/"
-      >Harvard Programming Languages Group</a
-    >
-  </h4>
-  <p class="dates">June 2020 – August 2020</p>
-  <ul>
-    <li>
-      Worked on a C++ compiler for
-      <a href="https://github.com/HarvardPL/formulog">Formulog</a>, a variant of
-      Datalog that supports ML-like syntax extension and SMT queries.
-    </li>
-    <li>
-      Generated highly parallel templatized C++17 code, used caching in B-Tree
-      comparisons to speed up Datalog evaluation by 16x, and optimized existing
-      OpenMP code using lockless data structures for an additional 4x speedup.
-    </li>
-    <li>
-      Wrote a handwritten parser that was 30x faster than the ANTLR-generated
-      LL(*) parser and used 20x less memory (80 GB to 4 GB).
-    </li>
-  </ul>
-
-  <h4>
-    Undergraduate Researcher at
-    <a href="https://www.predmed.org/">Predictive Medicine Group</a>
-  </h4>
-  <p class="dates">December 2019 – June 2020</p>
-  <ul>
-    <li>
-      Conducted research in statistics & medical informatics advised by Ben Reis
-      (Harvard Medical School), developing temporal models to identify patients
-      at high risk of suicide based on medical histories obtained from
-      Massachusetts General Hospital.
-    </li>
-  </ul>
-
-  <h4>
-    Coauthor at
-    <a href="https://aapt.org/">American Association of Physics Teachers</a>
-  </h4>
-  <p class="dates">April 2018 – October 2020</p>
-  <ul>
-    <li>
-      Co-wrote a physics book with Branislav Kisačanin,
-      <em>F=ma Contests: 2011-2019 Solutions Manual</em>.
-    </li>
-    <li>
-      Provided detailed solutions for nine years of past <em>F=ma</em> contests
-      to encourage physics interest among high school students.
-    </li>
-    <li>
-      Published with the American Association of Physics Teachers (AAPT) and AIP
-      Publishing, preprint available
-      <a href="https://www.aapt.org/physicsteam/2020/pastexams.cfm">online</a>.
-    </li>
-  </ul>
-
-  <h4>
-    Computer Science Instructor at
-    <a href="https://alphastar.academy/">AlphaStar Academy</a>
-  </h4>
-  <p class="dates">December 2017 – April 2020</p>
-  <ul>
-    <li>
-      Taught advanced algorithms and data structures (USACO Platinum) and
-      AIME-level (national math competition) mathematics to talented high school
-      students across the nation.
-    </li>
-    <li>
-      Developed detailed lesson plans and recorded lectures for future summer
-      programs and online courses.
-    </li>
-  </ul>
-
-  <h4>
-    Mathematics Researcher at
-    <a href="https://math.mit.edu/research/highschool/primes/index.php"
-      >PRIMES-USA</a
-    >
-  </h4>
-  <p class="dates">January 2018 – December 2018</p>
-  <ul>
-    <li>
-      Conducted research in extremal and probabilistic combinatorics under the
-      mentorship of Tanya Khovanova (MIT).
-    </li>
-    <li>
-      Studied quasirandom permutations using flag algebras and semidefinite
-      programming techniques.
-    </li>
-    <li>
-      Published a paper in the <em>Electronic Journal of Combinatorics</em>, and
-      won the Regeneron STS competition.
-    </li>
-  </ul> -->
-</section>
-
-<hr />
-
+    <h2>Education</h2>
+    <h4>University of Toronto</h4>
+    <p class="dates">September 2008 – June 2012</p>
+    <ul>
+      <li>
+        Completed a M.Eng, Mechanical Engineering along with a B.A.Sc. in Mechanical Engineering
+      </li>
+      <li>
+        <p>Selected coursework:</p>
+        <ul>
+          <li>MIE443H1: Mechatronics Systems: Design and Integration 95/100</li>
+          <li>MIE438H1: Microprocessors and Embedded Microcontrollers 81/100</li>
+        </ul>
+      </li>
+    </ul>
+  </section>

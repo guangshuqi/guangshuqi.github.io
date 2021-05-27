@@ -17,11 +17,11 @@ topics: JavaScript,Algorithms,Graphics,React
     </p>
   </div>
   <div class="col-md-4">
-    <a href="/assets/images/sorting-animator.jpg">
+    <a href="/assets/images/sorting-animator.png">
       <img
         class="img-fluid"
         alt="Sorting Animator"
-        src="/assets/images/sorting-animator.jpg"
+        src="/assets/images/sorting-animator.png"
       />
     </a>
   </div>
