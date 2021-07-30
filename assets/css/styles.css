@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css?family=Merriweather|Roboto:300,400,700&display=swap");
+body { background-color: #fafafa; font-family: "Roboto", sans-serif; }
+
+h1 { font-family: "Merriweather", serif; font-size: 2.8rem; margin-top: 24px; margin-bottom: 12px; text-align: center; }
+
+h2 { font-family: "Merriweather", serif; font-size: 1.8rem; margin-top: 1.5rem; }
+
+h3 { font-family: "Merriweather", serif; font-size: 1.5rem; margin-top: 1.2rem; }
+
+h4 { font-family: "Merriweather", serif; font-size: 1.25rem; margin-top: 1rem; }
+
+h3 small, h4 small { font-size: 70%; color: rgba(0, 0, 0, 0.6); white-space: nowrap; }
+
+dl, ol, ul { padding-inline-start: 30px; }
+
+p { margin-bottom: 0.6rem; }
+
+a { color: #3056c5; }
+
+.link-unstyled, .link-unstyled:link, .link-unstyled:hover { color: inherit; text-decoration: inherit; }
+
+nav { display: flex; justify-content: center; font-size: 1.4rem; font-weight: 300; margin-bottom: 18px; }
+
+nav > a { margin: 0 8px; border-bottom: 1px solid; border-color: transparent; transition: border-color 0.5s; }
+
+nav > a:hover { text-decoration: none; border-color: inherit; }
+
+nav > a.active { border-color: inherit; }
+
+@media (max-width: 370px) { nav { font-size: 1.2rem; } nav > a { margin: 0 6px; } }
+
+main { background-color: #ffffff; border-top: 1px solid lightgrey; border-bottom: 1px solid lightgrey; padding-bottom: 40px; }
+
+.spacer { background-color: #fafafa; height: 1.5rem; border-top: 1px solid lightgrey; border-bottom: 1px solid lightgrey; margin-top: 1.5rem; }
+
+hr { margin-top: 1.5rem; margin-bottom: 1.5rem; }
+
+.topics { font-size: 1.25rem; margin-bottom: 0.5rem; display: flex; flex-wrap: wrap; }
+
+.topics .badge { margin-right: 5px; margin-bottom: 5px; }
+
+.badge-gold { background-color: #ffb03b; color: white; }
+
+.badge-gold:hover { color: white; }
+
+.dates { margin-top: -0.25rem; margin-bottom: 0.25rem; font-family: "Merriweather", serif; }
+
+a.writing-inner { height: 164px; display: flex; border: 1px solid #e0e0e0; padding: 12px 0; color: inherit; text-decoration: none; background-color: #fbfbfb; transition: border-color 0.15s; }
+
+a.writing-inner:hover { border-color: #222222; }
+
+a.writing-inner > .writing-icon { width: 48px; padding-top: 4px; flex-shrink: 0; text-align: center; }
+
+a.writing-inner > .writing-description { padding-right: 12px; overflow-y: auto; }
+
+a.writing-inner > .writing-description > .writing-header { font-size: 1.25rem; font-weight: 500; margin-top: 0.1rem; margin-bottom: 0.3rem; line-height: 1.3; }
+
+a.writing-inner > .writing-description > .writing-date { font-weight: 300; margin-bottom: 0.2rem; }
+
+footer { padding: 24px; }
+
+.icon-list { display: flex; justify-content: center; font-size: 2em; }
+
+.icon-list > li { margin: 0 8px; }
+
+.icon-list a { color: black; opacity: 0.75; transition: opacity 0.5s; }
+
+.icon-list a:hover { opacity: 1; }
+
+.footnote { text-align: center; color: lightgrey; font-weight: 300; }
+
+/*# sourceMappingURL=styles.css.map */
